@@ -1,0 +1,8 @@
+{
+    "name": "SEO Tools",
+    "slug": "seo-tools",
+    "description": "Enhanced SEO features including custom meta boxes per post, Twitter Card support, and advanced sitemap customization.",
+    "version": "1.0.0",
+    "author": "Laravel CMS",
+    "author_url": "https://github.com/laravel-cms"
+}

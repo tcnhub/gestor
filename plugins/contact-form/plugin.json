@@ -1,0 +1,8 @@
+{
+    "name": "Contact Form",
+    "slug": "contact-form",
+    "description": "A simple contact form plugin that adds a contact form shortcode and page.",
+    "version": "1.0.0",
+    "author": "Laravel CMS",
+    "author_url": "https://github.com/laravel-cms"
+}
