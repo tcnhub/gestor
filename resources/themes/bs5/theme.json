@@ -1,0 +1,18 @@
+{
+    "name": "Bootstrap 5 Theme",
+    "slug": "bs5",
+    "description": "A clean, professional theme built with Bootstrap 5.3 and Font Awesome 6, featuring a magazine-style layout.",
+    "version": "1.0.0",
+    "author": "Laravel CMS",
+    "supports": ["menus", "widgets", "featured-images", "post-thumbnails"],
+    "menus": {
+        "primary": "Primary Menu",
+        "footer": "Footer Menu"
+    },
+    "sidebars": [
+        {"id": "sidebar-1", "name": "Main Sidebar"},
+        {"id": "footer-1", "name": "Footer Column 1"},
+        {"id": "footer-2", "name": "Footer Column 2"},
+        {"id": "footer-3", "name": "Footer Column 3"}
+    ]
+}

@@ -47,10 +47,19 @@ class CmsSeeder extends Seeder
         // =====================
         Theme::firstOrCreate(['slug' => 'default'], [
             'name' => 'Default Theme',
-            'description' => 'The default Laravel CMS theme',
+            'description' => 'The default Laravel CMS theme built with Tailwind CSS',
             'version' => '1.0.0',
             'author' => 'Laravel CMS',
             'active' => true,
+        ]);
+
+        // Bootstrap 5 Theme
+        Theme::firstOrCreate(['slug' => 'bs5'], [
+            'name' => 'Bootstrap 5 Theme',
+            'description' => 'A clean, modern theme built with Bootstrap 5 and Font Awesome 6',
+            'version' => '1.0.0',
+            'author' => 'Laravel CMS',
+            'active' => false,
         ]);
 
         // =====================
